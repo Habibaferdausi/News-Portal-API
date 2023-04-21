@@ -70,14 +70,14 @@ const showAllNews = (data, category_name) => {
         
         <p class="m-0 p-0">${total_view ? total_view : "Not available"}</p>
         </div>
-        <div class="d-flex gap-2">
+        <div class="d-flex gap-2 text-warning">
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-star-half"></i>
        
-        <p>${rating.number}</p>
+        <p class="text-black">${rating.number}</p>
         </div>
         <div>
         
